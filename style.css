@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.chess{
+width: 100%;
+height: 100vh;
+background-size: cover;
+position: relative;
+z-index: -1;
+margin-top: 0px;
+}
+
+.mneu li{
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 10px;
+    margin-right: 30px;
+ 
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.856);
+  
+}
+.img{
+    width: 100%;
+}
+img{
+    width: 100%;
+    background-size: cover;
+    height: 80vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+a:hover{
+    color: rgba(218, 74, 18, 0.911);
+    text-decoration: none;
+}
+
+.dadicons{
+    justify-content: center;
+     border: rgba(255, 255, 255, 0.425) solid 2px;
+     background-color: rgba(0, 0, 0, 0.918);
+     width:100%;
+     display: flex;
+     padding: 10px;
+     display: inline-block;
+     position: absolute;
+    
+    border-radius: 4px;
+     
+ }
+ 
+ 
+ .facbook{
+     -webkit-text-stroke: 1.2px  rgb(34, 36, 182) ;
+     transition: 0.4s;
+     font-size: 30px;
+ }
+ 
+ .facbook:hover{
+     transform: translateY(-7px);
+     text-shadow:0px 0px 7px  rgba(10, 14, 238, 0.527);
+ }
+ 
+ .instgram{
+     -webkit-text-stroke: 1.2px  rgb(175, 40, 74) ;
+     transition: 0.4s;
+     font-size: 30px;
+ }
+ 
+ .instgram:hover{
+     text-shadow:0px 0px 7px  rgba(245, 5, 65, 0.74);
+     transform: translateY(-7px);   
+ }
+ 
+ .whatsapp{
+     -webkit-text-stroke: 1.2px  rgb(26, 170, 38) ;
+     transition: 0.4s;
+     font-size: 30px;
+ }
+ 
+ .whatsapp:hover{
+     text-shadow:0px 0px 7px  rgba(24, 212, 40, 0.644);
+     transform: translateY(-7px); 
+ }
+ 
+ .twitter{
+     -webkit-text-stroke: 1.2px  rgb(11, 136, 173) ;
+     transition: 0.4s;
+     font-size: 30px;
+    }
+ 
+ .twitter:hover{
+     transform: translateY(-7px);
+     text-shadow:0px 0px 7px  rgba(12, 163, 233, 0.452)
+ }
+ 
+ .tiktok{
+    font-size: 30px;
+     -webkit-text-stroke: 1.2px  rgb(3, 3, 15) ;
+     transition: 0.4s;
+     
+ }
+ 
+ .tiktok:hover{
+     transform: translateY(-7px);
+     text-shadow:0px 0px 7px  rgba(0, 0, 0, 0.692);
+ }
+ 
+ .linkedin{
+    font-size: 30px;
+     -webkit-text-stroke: 1.2px  rgb(34, 36, 165) ;
+     transition: 0.4s;
+ }
+ 
+ .linkedin:hover{
+     transform: translateY(-7px);
+     text-shadow:0px 0px 7px  rgba(19, 22, 182, 0.979);
+ }
+ 
+
+
+.card-img-top{
+    height: 150px;
+    background-size: cover;
+}
+.box:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 8px;
+}
+
+.box{
+    
+    transition: 0.5s;
+   margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.contner{
+    background-color: rgb(49, 46, 46);
+}
+.card1{
+    transition: 0.5s;
+    margin-top: 20px;
+     display: inline-block;
+     margin-bottom: 20px;
+     margin-left: 40px;
+
+}
+.card1:hover{
+    transform: scale(1.2);
+    box-shadow: 6px 6px 8px;
+}
+.box2{
+    width: 40%;
+}
+#sing-up{
+ float: left;
+ text-align: 50%;
+ margin-bottom: 20px;
+}
+
+.card{
+    border: solid black;
+    border-radius: 8px;
+}
+.card-header{
+    background-color: rgb(14, 13, 13);
+}
+.card-footer{
+    background-color: rgb(14, 13, 13);
+}
+
+.card-body{
+    background-color: rgb(27, 26, 26);
+}
+.card-text{
+    color: rgb(227, 233, 238);
+}
+.card-title{
+    color: rgb(227, 233, 238);
+}
+.h11{
+    color: rgb(227, 233, 238);
+    text-shadow: 3px 3px 5px;
+}
+
+.btn{
+    background-color: black;
+    color: rgb(217, 224, 230);
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 94, 0);
+    color: rgb(5, 5, 5);
+    transform: scale(1.2);
+    box-shadow: 5px 5px 7px;
+}
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 40px;
+    margin-top: 235px;
+    border-radius: 25px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+.carousel-control-prev{
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 40px;
+    margin-top: 235px;
+    border-radius: 25px;
+    width: 40px;
+    margin-left: 10px;
+}
+.carousel-control-prev:hover{
+background-color: rgba(0, 0, 0, 0.863);
+}
+.carousel-control-next:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+    }
+
+    .pp{
+        color: rgb(224, 229, 233);
+        margin-top: 10px;
+    }
+    .center{
+        background-color:rgba(0, 0, 0, 0.863); 
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .modal-body{
+        background-color: rgba(0, 0, 0, 0.856);
+        color: rgb(225, 231, 236);
+    }
+    .modal-header{
+        background-color: rgb(0, 0, 0);
+        color: rgb(225, 231, 236);
+    }
+    .modal-footer{
+        background-color: rgb(0, 0, 0);
+        color: rgb(225, 231, 236);
+    }
+    .close{
+        color: aliceblue;
+    }
+    
